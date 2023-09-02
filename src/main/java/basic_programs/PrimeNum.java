@@ -21,8 +21,10 @@ public class PrimeNum
 
         // Loop from 2 to the square root of the number
         // If any number divides 'number', it's not prime
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
+        for (int i = 2; i <= Math.sqrt(number); i++)
+        {
+            if (number % i == 0)
+            {
                 return false;
             }
         }

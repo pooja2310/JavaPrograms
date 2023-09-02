@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class OccurenceChar
 {
     public static void main(String[] args) {
-        String myStr = "pooja";
+        String myStr = "poooja";
         System.out.println("String =" + myStr);
         int length= myStr.length();
         System.out.println("Length =" + length);
@@ -22,6 +22,7 @@ public class OccurenceChar
             }
         }
         System.out.println("Counting occurrences of each character = "+hashMap);
+        //
     }
 }
 

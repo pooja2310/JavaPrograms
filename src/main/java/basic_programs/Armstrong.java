@@ -9,7 +9,7 @@ public class Armstrong
         int sum = 0;
         int temp;
         temp = num;
-        while (num > 0) {
+        while (num >0) {
             sum = sum + ((num % 10) * (num % 10) * (num % 10));  //0+0  , 125 ,
             num = num / 10;
         }

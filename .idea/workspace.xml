@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0afb3a1-375b-45af-a160-f9ab5e3437a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/EvenNumIdentification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/FourthHeighest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/PanValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/SecondHighestNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/VowelCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount_Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/Armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/Armstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/AscendingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/AscendingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/OccurenceChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/OccurenceChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +59,22 @@
       <recent name="$PROJECT_DIR$/src/test/driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OccurenceChar">
-    <configuration name="EvenNumIdentification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.EvenNumIdentification" />
+  <component name="RunManager" selected="Application.WordCount_Hashmap">
+    <configuration name="AscendingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.AscendingSort" />
+      <module name="JavaBasicsPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.Fibonacci" />
       <module name="JavaBasicsPrograms" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.PrimeNum" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.WordCount" />
       <module name="JavaBasicsPrograms" />
       <extension name="coverage">
         <pattern>
@@ -95,21 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.ReverseString" />
-      <module name="JavaBasicsPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.StringFormatter" />
+    <configuration name="WordCount_Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.WordCount_Hashmap" />
       <module name="JavaBasicsPrograms" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCount_Hashmap" />
+        <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.OccurenceChar" />
-        <item itemvalue="Application.PrimeNum" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.StringFormatter" />
-        <item itemvalue="Application.EvenNumIdentification" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.AscendingSort" />
       </list>
     </recent_temporary>
   </component>

@@ -6,6 +6,7 @@ public class OccurenceChar
 {
     public static void main(String[] args) {
         String myStr = "poooja";
+        int count =0;
         System.out.println("String =" + myStr);
         int length= myStr.length();
         System.out.println("Length =" + length);
@@ -14,7 +15,7 @@ public class OccurenceChar
         {
             if (hashMap.containsKey(myStr.charAt(i)))
             {
-                int count = hashMap.get(myStr.charAt(i));
+                count = hashMap.get(myStr.charAt(i));
                 hashMap.put(myStr.charAt(i), ++count);
             }
             else {

@@ -2,21 +2,18 @@ package basic_programs;
 
 public class Fibonacci
 {
-    public static void main(String args[])
-    {
-
+    public static void main(String args[]) {
+    
         int[] nums = {0, 1, 1, 2, 3, 5};
-
-        int[] result = fibonacci(nums);
-
-        // Print the result array
-        for (int num : result) {
-            System.out.print(num  +  " ");
-
-        }
+    
+      fibonacci(nums);
+    
+    
+        System.out.println("It is fibonacci series");
+    
     }
 
-    public static int[] fibonacci(int nums[])
+    public static boolean fibonacci(int nums[])
     {  int ans[] = new int[nums.length];
         ans[0]= nums[0];
         ans[1]= nums[1];
@@ -26,7 +23,7 @@ public class Fibonacci
             ans[i]= nums[i-1]+nums[i-2];
 
         }
-        return ans;
+        return true;
     }
 }
 

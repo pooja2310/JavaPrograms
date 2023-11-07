@@ -4,7 +4,8 @@ import java.util.HashMap;
 
 public class WordCount_Hashmap
 {
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		String str = "this is an interview";
 		
 		// Split the input string into words
@@ -14,7 +15,8 @@ public class WordCount_Hashmap
 		HashMap<String, Integer> wordCounts = new HashMap<>();
 		
 		// Count the occurrence of each word
-		for (String word : words) {
+		for (String word : words)
+		{
 			// Remove any punctuation or whitespace from the word (if needed)
 			word = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
 			
@@ -26,10 +28,11 @@ public class WordCount_Hashmap
 				wordCounts.put(word, 1);
 			}
 		}
+		System.out.println(wordCounts);
 		
 		// Print the word counts
 		for (String word : wordCounts.keySet()) {
-			System.out.println("Word: " + word + " - Count: " + wordCounts.get(word));
+			//System.out.println("Word: " + word + " - Count: " + wordCounts.get(word));
 		}
 	}
 }

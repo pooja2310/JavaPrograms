@@ -12,10 +12,11 @@ public class WordCount {
 		for (String word : words) {
 			// Remove punctuation from the word (if needed)
 			word = word.replaceAll("[^a-zA-Z]", "");
-			
+			System.out.println("Word : " + word);
 			// Check if the word is not empty
 			if (!word.isEmpty()) {
 				wordCount++;
+				
 			}
 		}
 		

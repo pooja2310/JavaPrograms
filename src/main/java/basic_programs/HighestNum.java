@@ -12,6 +12,7 @@ public class HighestNum
 		{
 			if(arr[i]>heightest)
 				heightest=arr[i];
+			
 		}
 		System.out.println("Maximum Num :" +heightest);
 	}

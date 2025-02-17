@@ -1,6 +1,7 @@
 package basic_programs;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class WordCount_Hashmap
 {
@@ -12,7 +13,7 @@ public class WordCount_Hashmap
 		String[] words = str.split(" ");
 		
 		// Initialize a HashMap to store word counts
-		HashMap<String, Integer> wordCounts = new HashMap<>();
+		Map<String, Integer> wordCounts = new HashMap<>();
 		
 		// Count the occurrence of each word
 		for (String word : words)
@@ -32,7 +33,7 @@ public class WordCount_Hashmap
 		
 		// Print the word counts
 		for (String word : wordCounts.keySet()) {
-			//System.out.println("Word: " + word + " - Count: " + wordCounts.get(word));
+			System.out.println("Word: " + word + " - Count: " + wordCounts.get(word));
 		}
 	}
 }

@@ -12,6 +12,6 @@ public class RemoveDuplicates
 		//convert set array
 		Integer[] WithoutDuplicate = set.toArray(new Integer[0]);
 		System.out.println(Arrays.toString(WithoutDuplicate));
-		
+		System.out.println((WithoutDuplicate));
 	}
 }

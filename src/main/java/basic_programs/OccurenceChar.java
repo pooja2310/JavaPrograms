@@ -1,6 +1,7 @@
 package basic_programs;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class OccurenceChar
 {
@@ -10,7 +11,7 @@ public class OccurenceChar
         System.out.println("String =" + myStr);
         int length= myStr.length();
         System.out.println("Length =" + length);
-        HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
+        Map<Character, Integer> hashMap = new HashMap<Character, Integer>();
         for (int i = 0; i < length; i++)
         {
             if (hashMap.containsKey(myStr.charAt(i)))

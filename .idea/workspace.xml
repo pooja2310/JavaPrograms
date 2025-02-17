@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0afb3a1-375b-45af-a160-f9ab5e3437a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/ListOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/ListOfListObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic_programs/NumberStartingWithOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/HashMapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/HashmapComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/HashmapIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/HashmapToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/IsEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/hashmap/TreeMapFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/ArrayComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/ArrayListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/ArrayToArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/set/HashSetFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/set/TreeSetFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/Break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/GetterSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/GetterSetterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/InstanceVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core_java/ObjectFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/HighestNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/HighestNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/OccurenceChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/OccurenceChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/SecondHighestNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/SecondHighestNumberInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/ShortestWord_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/ShortestWordString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_programs/WordCount_Hashmap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +53,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gamg46976t1jNIFwqJyHZAlh8J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sandipkumbhar/IdeaProjects/CucumberProj/src/test/driver&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -53,9 +78,48 @@
       <recent name="$PROJECT_DIR$/src/test/driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberStartingWithOne">
-    <configuration name="ListOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.ListOfList" />
+  <component name="RunManager">
+    <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java.ArrayOperations" />
+      <module name="JavaBasicsPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashmapToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.hashmap.HashmapToArray" />
+      <module name="JavaBasicsPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java.ObjectFields" />
+      <module name="JavaBasicsPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.SecondHighestNumberInArray" />
       <module name="JavaBasicsPrograms" />
       <extension name="coverage">
         <pattern>
@@ -67,47 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfListObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.ListOfListObject" />
-      <module name="JavaBasicsPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberStartingWithOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.NumberStartingWithOne" />
-      <module name="JavaBasicsPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.WordCount" />
-      <module name="JavaBasicsPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCount_Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_programs.WordCount_Hashmap" />
+    <configuration name="ShortestWordString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_programs.ShortestWordString" />
       <module name="JavaBasicsPrograms" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberStartingWithOne" />
-        <item itemvalue="Application.ListOfListObject" />
-        <item itemvalue="Application.ListOfList" />
-        <item itemvalue="Application.WordCount_Hashmap" />
-        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.ShortestWordString" />
+        <item itemvalue="Application.SecondHighestNumberInArray" />
+        <item itemvalue="Application.ArrayOperations" />
+        <item itemvalue="Application.HashmapToArray" />
+        <item itemvalue="Application.ObjectFields" />
       </list>
     </recent_temporary>
   </component>

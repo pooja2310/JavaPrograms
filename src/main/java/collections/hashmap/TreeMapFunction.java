@@ -19,7 +19,7 @@ public class TreeMapFunction
 		
 		Set<Integer> lessthan = tm.headMap(500).keySet();  //less than this key
 		System.out.println(lessthan);
-		Set<Integer> greaterthan =	tm.tailMap(40000).keySet();  //greater thsn this key
+		Set<Integer> greaterthan =	tm.tailMap(40000).keySet();  //greater than this key
 		System.out.println(greaterthan);
 		
 		

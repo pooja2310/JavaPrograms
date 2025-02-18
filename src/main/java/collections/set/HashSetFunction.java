@@ -15,8 +15,6 @@ public class HashSetFunction {
 		
 		System.out.println(hs);
 		System.out.println(hs.contains("Pooja"));
-		System.out.println(hs.remove("Pooja"));
-		System.out.println(hs);
 		
 		Iterator<String> it =hs.iterator();
 		while(it.hasNext())

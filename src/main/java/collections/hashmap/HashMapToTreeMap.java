@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class HashMapSort
+public class HashMapToTreeMap
 {
 	public static void main(String[] args) {
 		Map<String, Integer> hmap = new HashMap<>();

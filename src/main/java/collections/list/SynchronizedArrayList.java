@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class Synchronization
+public class SynchronizedArrayList
 {
 	public static void main(String[] args) {
 		// Collections.synchronizedList -method for synchronization

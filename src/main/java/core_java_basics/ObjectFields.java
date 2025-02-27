@@ -1,4 +1,4 @@
-package core_java;
+package core_java_basics;
 
 public class ObjectFields {
 	public static void main(String[] args)

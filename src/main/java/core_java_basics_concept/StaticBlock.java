@@ -1,4 +1,4 @@
-package core_java_basics;
+package core_java_basics_concept;
 
 public class StaticBlock {
 	static   //Static block is always called even if object is not created.

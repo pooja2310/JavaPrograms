@@ -1,4 +1,4 @@
-package core_java_basics.superkeyword;
+package core_java_basics_concept.superkeyword;
 
 public class SpeedMethodMain extends SpeedParent {
 	public void display() {

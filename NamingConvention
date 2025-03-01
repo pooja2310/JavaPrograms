@@ -1,0 +1,12 @@
+
+Pascal Case: Usually used for Class, Interface names
+ex: Employee.java | BufferedReader, InputStreamReader
+ex: Runnable, Comparable, Comparator (Interfaces)
+
+Camel Case: Usually used for variable & method names
+ex: double monthlySalary;
+ex: public void getSalary() {}
+
+Snake Case:
+monthly-salary
+is-age-valid

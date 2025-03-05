@@ -1,0 +1,18 @@
+Problem-9: Method Overloading
+
+Create 2 methods with the SAME name as: convertToCentimeters
+The 1st method has 1-parameter of type int which represents the `height in inches`.
+In this method - You will convert inches to centimeters & pass back the number of centimeters as a double.
+
+The 2nd method has 2-parameters of type int. One param to represent `height in feet` and the other to represent the remaining `height in inches`.
+So, for example, If a person is 5 foot, 8 inches, the values passed to this method would be: 5 for feet and 8 for inches.
+This method will convert feet & inches to inches, then
+This method will further call the first method to get the number of centimeters, also returning the value as double
+
+Both methods should return a real number/decimal value for total height in centimeters.
+Call both methods & print out the results
+
+TIP: 1 Foot = 12 inches
+TIP: 1 Inch = 2.54 centimeters
+
+You can use this website for reference: https://www.metric-conversions.org/length/feet-to-centimeters.htm

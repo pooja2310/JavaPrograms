@@ -4,9 +4,7 @@ public class DecimalComparator {
 	public static boolean areEqualByThreeDecimalPlaces(double number1, double number2) {
 		int comparator1 = (int) (number1 * 1000);
 		int comparator2 = (int) (number2 * 1000);
-		if (comparator1 == comparator2)
-			return true;
-		else return false;
+		return comparator1 == comparator2;
 	}
 	
 	public static void main(String[] args) {

@@ -19,14 +19,12 @@ public class SynchronizedHashMap {
 //		synchronized(nameList) {
 //			Iterator i = set.iterator();
 //		}
-		// to iterate /traverse we use synchronization
-		synchronized (nameList)
-		{
-			Iterator<Map.Entry<String, Integer>> keyValue= nameList.entrySet().iterator();
-			while(keyValue.hasNext())
-			{
-				Map.Entry<String ,Integer> entry= keyValue.next();
-				System.out.println("Keys : " +entry.getKey() + " Values :" +entry.getValue());
+		// To avoid data inconsistency we use synchronization
+		synchronized (nameList) {
+			Iterator<Map.Entry<String, Integer>> keyValue = nameList.entrySet().iterator();
+			while (keyValue.hasNext()) {
+				Map.Entry<String, Integer> entry = keyValue.next();
+				System.out.println("Keys : " + entry.getKey() + " Values :" + entry.getValue());
 			}
 			
 		}

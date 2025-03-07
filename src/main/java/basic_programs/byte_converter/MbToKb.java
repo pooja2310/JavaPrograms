@@ -1,7 +1,5 @@
 package basic_programs.byte_converter;
 
-import org.joda.time.field.RemainderDateTimeField;
-
 import java.util.Scanner;
 
 public class MbToKb {

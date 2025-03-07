@@ -12,7 +12,7 @@ public class ShortestWordString {
 				shortest = word;
 			}
 		}
-		System.out.println("Shortest Word :" +shortest );
+		System.out.println("Shortest Word :" + shortest);
 		
 	}
 }

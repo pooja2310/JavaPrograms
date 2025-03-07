@@ -13,10 +13,10 @@ public class ArrayListSort {
 			arraySort.add(7);
 			arraySort.add(67);
 			
-			System.out.println("Before sort :" +arraySort);
+			System.out.println("Before sort :" + arraySort);
 			
-			Collections.sort(arraySort,Collections.reverseOrder());  //descending order
-			System.out.println("After sort :" +arraySort);
+			Collections.sort(arraySort, Collections.reverseOrder());  //descending order
+			System.out.println("After sort :" + arraySort);
 			System.out.println("---------------------");
 			List<String> arrayStringSort = new ArrayList<>();
 			arrayStringSort.add("HP");
@@ -24,14 +24,14 @@ public class ArrayListSort {
 			arrayStringSort.add("Lenovo");
 			arrayStringSort.add("Macbook");
 			
-			System.out.println("Before sort :" +arrayStringSort);
-			arrayStringSort.add(2,"Asus");
+			System.out.println("Before sort :" + arrayStringSort);
+			arrayStringSort.add(2, "Asus");
 			
 			Collections.sort(arrayStringSort);    //descending order
 			Collections.reverse(arrayStringSort);
-			System.out.println("After sort :" +arrayStringSort);
+			System.out.println("After sort :" + arrayStringSort);
 			arrayStringSort.remove(1);
-			System.out.println("After removal :" +arrayStringSort);
+			System.out.println("After removal :" + arrayStringSort);
 		}
 	}
 }

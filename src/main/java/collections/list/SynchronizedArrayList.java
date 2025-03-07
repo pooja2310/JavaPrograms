@@ -6,11 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class SynchronizedArrayList
-{
+public class SynchronizedArrayList {
 	public static void main(String[] args) {
 		// Collections.synchronizedList -method for synchronization
-		List<String> namelist= Collections.synchronizedList(new ArrayList<>());
+		List<String> namelist = Collections.synchronizedList(new ArrayList<>());
 		namelist.add("java");
 		namelist.add("python");
 		namelist.add("ruby");
@@ -18,23 +17,25 @@ public class SynchronizedArrayList
 		
 		System.out.println(namelist);
 		// to iterate /traverse we use synchronization
-		synchronized (namelist)
-		{
-			Iterator<String> itr= namelist.iterator();
-			while(itr.hasNext())
-			{
+		synchronized (namelist) {
+//			for(String s :namelist)
+//			{
+//				System.out.println("Synchronized list :" +s);
+//
+//			}
+			Iterator<String> itr = namelist.iterator();
+			while (itr.hasNext()) {
 				System.out.println(itr.next());
 			}
 		}
 		
 		// copyOnWriteArrayList class for synchronization
 		
-		CopyOnWriteArrayList<String> emplist= new CopyOnWriteArrayList<String>();
+		CopyOnWriteArrayList<String> emplist = new CopyOnWriteArrayList<String>();
 		emplist.add("c");
 		emplist.add("c++");
-		Iterator<String> itr= emplist.iterator();
-		while (itr.hasNext())
-		{
+		Iterator<String> itr = emplist.iterator();
+		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 	}

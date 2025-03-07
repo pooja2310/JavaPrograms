@@ -1,29 +1,30 @@
 package basic_programs.method_overloading;
 
 public class SecMinChallenge {
-	public static String getDurationString(int seconds) {
-		if (seconds >= 0) {
-			System.out.println("Valid input");
+	public static String getDurationString(int seconds) { // HARD-FACT
+		String result = "";
+		if (seconds >= 0) {        // HARD-FACT
+			int minutes = seconds / 60;
+			int secondRemainder = seconds % 60;
+			result = getDurationString(minutes, secondRemainder);        // HARD-FACT
 		}
-		return "";
+		return result;
 		
 	}
 	
-	public static String getDurationString(int minutes, int seconds) {
+	public static String getDurationString(int minutes, int seconds) {// HARD-FACT
 		String result = null;
-		if ((minutes >= 0) && (seconds >= 0 && seconds <= 59)) {
-			minutes = seconds / 60;
-			int SecondRemainder = seconds % 60;
+		if ((minutes >= 0) && (seconds >= 0 && seconds <= 59)) { // HARD-FACT
 			int hour = minutes / 60;
-			
-			int MinutesRemainder = minutes % 60;
-			System.out.println(+hour + "h " + MinutesRemainder + "m " + SecondRemainder + "s ");
+			int minutesRemainder = minutes % 60;
+			result = hour + "h " + minutesRemainder + "m " + seconds + "s";
 		}
 		return result;
 	}
 	
 	public static void main(String[] args) {
-		getDurationString(50000);
-		
+		System.out.println(getDurationString(50000));
+		System.out.println(getDurationString(3945));
+		System.out.println(getDurationString(833, 20));
 	}
 }

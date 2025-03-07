@@ -1,0 +1,33 @@
+Your class name must be "SecondsAndMinutesChallenge"
+
+Create a method that takes time in seconds as input parameters.
+Then you should convert the seconds to hours.
+Next, you will display the time in hours with remaining minutes and seconds in string format.
+
+Do this transformation in 2 steps, using the Method Overloading concept.
+
+Create 2 methods with name: getDurationString
+Following are your method signatures:
+1st method has 1-parameter of type `int` named as `seconds`
+2nd method has 2-parameters named `minutes` and `seconds` & both of type 'int'
+
+Both methods return a String in format as: "XXh YYm ZZs"
+where XX represent the number in hours, YY in minutes and ZZ in seconds
+
+Note: The 1st method should call the 2nd method to get its results from 2nd.
+Facts
+ 1 mins = 60 secs
+60 mins = 3600 secs
+
+Part-2: (BONUS): Add Validation conditions
+For 1st method, the seconds parameter should be >= 0;
+For the 2nd method,
+the minutes parameter should be >=0 and seconds parameter should be >= 0 and <= 59.
+If either method is passed an Invalid value, then print a meaningful message to the end-user.
+
+Sample inputs & expected output
+
+-3,945 seconds = Invalid Value. Input value for Seconds cannot be a NEGATIVE number!
+3,945 seconds = 1h 5m 45s
+50,000 seconds = 13h 53m 20s
+78,12,000 seconds = 2170h 0m 0s

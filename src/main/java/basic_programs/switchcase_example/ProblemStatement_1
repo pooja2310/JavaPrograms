@@ -1,0 +1,20 @@
+Determining Word Representation Of Numbers Accurately
+Write a method called printNumberInWord.
+
+The method has one parameter called "number" which is a whole number.
+
+The method needs to print "ZERO", "ONE", "TWO", ... "NINE", "OTHER"
+
+If the input parameter number is 0, 1, 2, .... 9 or other for any other number including negative numbers.
+
+
+
+Solution can be obtained using many ways like:
+
+if-else if-else
+
+traditional switch case(switch, case, break, default)
+
+But I want you to use the enhanced switch case(switch, case -> , default)
+
+Reference Link: Enhancements for Switch Statement in Java 13 - GeeksforGeeks

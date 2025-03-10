@@ -1,4 +1,4 @@
-package basic_programs.month_length_computation;
+package basic_programs.leapyear_switch_case;
 
 public class LeapYear {
 	public static boolean isLeapYear(int year) {

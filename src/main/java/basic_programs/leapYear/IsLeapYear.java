@@ -1,4 +1,4 @@
-package basic_programs.LeapYear;
+package basic_programs.leapYear;
 
 public class IsLeapYear {
 	public static boolean isLeapYear(int year) {

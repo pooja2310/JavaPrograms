@@ -1,0 +1,18 @@
+(1). Write a Java program that accepts a String from the end-user as Monday/Tuesday & displays the weekday number as a result.
+You should define a function with name "getWeekDayInString" with a parameter named "day" of type String
+It must return the number of that weekday
+Note: Use traditional switch case
+Validations: Input string "day" should be weekdays & return Invalid weekday if the end-user provides invalid input
+Example Input & Output:
+Sunday --> 1
+
+2). Write a java program that uses a switch statement to print the name of the month corresponding to a given numeric value.
+Use Enhanced For Loop (Not Traditional for loop)
+Example Input & Output:
+1 --> January
+
+(3). Write a java program that uses a switch statement to print Weekday/Weekend accordingly.
+Accept a numeric value from the end-user between 1 & 7 (inclusive) & for other values return Invalid data message.
+Example Input & Output:
+1 --> Weekday
+6 --> Weekend

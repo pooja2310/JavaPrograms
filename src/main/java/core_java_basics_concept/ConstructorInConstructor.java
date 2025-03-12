@@ -13,7 +13,7 @@ public class ConstructorInConstructor {
 	ConstructorInConstructor(String newName, int newAge) {
 		name = newName;
 		age = newAge;
-		System.out.println("two arg");
+		System.out.println("two arg -> " + " name:" + name + "  age:" + age) ;
 	}
 	
 	public static void main(String[] args) {

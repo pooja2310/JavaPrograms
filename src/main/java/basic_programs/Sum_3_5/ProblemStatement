@@ -1,0 +1,9 @@
+Sum of 3 and 5 Challenge
+
+Create a for loop with the range from 1 to 1000 which should be "inclusive".
+Condition-1: You should add all the numbers which are divisible by 3 & 5.
+Print out the numbers that meet the above condition.
+
+Condition-2: Break out of the loop once you have found 5 numbers that meet the above condition.
+After breaking out of the loop,
+Print the Sum of ALL the numbers that met the condition above.

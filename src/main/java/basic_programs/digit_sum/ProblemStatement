@@ -1,0 +1,12 @@
+Write a method with the name sumDigits that has a single parameter named 'number' of type int & should return an int.
+Method should only accept positive numbers.
+If a negative method is passed return -1 (meaning Invalid value was passed)
+The method should parse out each digit from the given number & sum up all the digits
+Ex. 122 --> 1 + 2 + 2 = 5
+Ex. 100 --> 1 + 0 + 0 = 1
+Ex. -24 --> -1
+
+If the number is a single digit then return that digit without any processing on it.
+Ex. 1   --> 1
+
+Tip: Use Modulo & Division operator

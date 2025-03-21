@@ -1,0 +1,24 @@
+Problem-22: Reverse the Number
+
+Write a method with name "reverseNumber" with 1-parameter called "number" of type int.
+Reverse the Number & return the number & print it in the console.
+
+Ex: Reverse number of 5149 = 9415
+Ex: Reverse number of -7136 = -6317
+
+Tip: Use Modulo operator & Division operator wisely.
+Do the dry run on the Paper first then write the code in the IDE.
+Note: The Negative sign of the number should be maintained & should not be lost.
+
+
+Problem-23: Check if Number is Palindrome
+
+Write a method "isPalindrome" with 1-parameter called "number" of type int.
+The method should return true if the number is a palindrome else false.
+Print the Number & the result in the console like
+
+Ex. Is -21212 a Palindrome? = true
+Ex. Is  15251 a Palindrome? = true
+Ex. Is  23144 a Palindrome? = false
+
+Tip: Re-use the above reverseNumber() method written earlier in this program.

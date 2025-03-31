@@ -17,88 +17,69 @@ public class NumberToWords {
 	
 	public static int reverse(int number) {
 		int reverse = 0;
-		while ((number > 0) || (number < 0)) {
-			int remainder = 0;
+		int remainder;
+		while (number > 0) {
 			remainder = number % 10;
 			number = number / 10;
 			reverse = reverse * 10 + remainder;
-			
 		}
-		
 		return reverse;
 	}
 	
-	public static String numberToWords(int number) {
-		// TODO : Negative Number condition    on input number
-		int r;
-		String result = null;
-		if (number > 0) {
+	public static void numberToWords(int number) {
+		int digit;
+		if (number >= 0) {
+			if (number == 0) {
+				System.out.println("Zero");
+				return;
+			}
+			
 			int reverseNum = reverse(number);
+			int difference = getDigitCount(number) - getDigitCount(reverseNum);
 			while ((reverseNum > 0)) {
-				r = reverseNum % 10;
+				digit = reverseNum % 10;
 				reverseNum /= 10;
-				switch (r) {
-					case 0 -> {
-						result = "Zero";
-						System.out.println(result);
-					}
-					case 1 -> {
-						result = "One";
-						System.out.println(result);
-					}
-					case 2 -> {
-						result = "Two";
-						System.out.println(result);
-					}
-					case 3 -> {
-						result = "Three";
-						System.out.println(result);
-					}
-					case 4 -> {
-						result = "Four";
-						System.out.println(result);
-					}
-					case 5 -> {
-						result = "Five";
-						System.out.println(result);
-					}
-					case 6 -> {
-						result = "Six";
-						System.out.println(result);
-					}
-					case 7 -> {
-						result = "Seven";
-						System.out.println(result);
-					}
-					case 8 -> {
-						result = "Eight";
-						System.out.println(result);
-					}
-					case 9 ->
-						System.out.println("Nine");
-					default -> System.out.println("Invalid data");
+				
+				switch (digit) {
+					case 1 -> System.out.println("One");
+					case 2 -> System.out.println("Two");
+					case 3 -> System.out.println("Three");
+					case 4 -> System.out.println("Four");
+					case 5 -> System.out.println("Five");
+					case 6 -> System.out.println("Six");
+					case 7 -> System.out.println("Seven");
+					case 8 -> System.out.println("Eight");
+					case 9 -> System.out.println("Nine");
+					default -> System.out.println("Zero");
 				}
 			}
-		} else System.out.println("Invalid data");
-		
-		return result;
+			
+			if (difference > 0)
+				for (int count = 1; count <= difference; count++)
+					System.out.println("Zero");
+			
+		} else
+			System.out.println("Invalid data");
 	}
 	
 	public static void main(String[] args) {
-	System.out.println("Digit Count : " + getDigitCount(100));
-		/*System.out.println("Digit Count : " + getDigitCount(0));
-		System.out.println("Digit Count : " + getDigitCount(-9));
+		//System.out.println("Digit Count : " + getDigitCount(1010));
+		//System.out.println("Digit Count : " + getDigitCount(101));
+		/*System.out.println("Digit Count : " + getDigitCount(-9));
 		System.out.println("Digit Count : " + getDigitCount(5200));
 		System.out.println("Reverse number is :" + reverse(-123));
 		System.out.println("Reverse number is :" + reverse(1212));
-		System.out.println("Reverse number is :" + reverse(10));
-		System.out.println("Reverse number is :" + reverse(1000));  */
-		//numberToWords(123);
-		//numberToWords(0);
-		//numberToWords(1010);
-		//numberToWords(1000);
-		//numberToWords(-12);
+		System.out.println("Reverse number is :" + reverse(10));*/
+		//System.out.println("Reverse number is :" + reverse(1010));
 		
-		
+		numberToWords(123);
+		System.out.println();
+		numberToWords(0);
+		System.out.println();
+		numberToWords(10_100);
+		System.out.println();
+		numberToWords(10_00_000);
+		System.out.println();
+		numberToWords(-12);
 	}
 }
